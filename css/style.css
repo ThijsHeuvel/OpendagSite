@@ -1,0 +1,32 @@
+.logo{
+    width: 120px;
+    height: auto;
+}
+
+header {
+    max-height: 100px;
+    background-color: #0050FF;
+    display: flex;
+    align-items: center;
+    padding: -10px !important;
+    margin: -10px;
+}
+
+header > img,
+header > nav {
+padding: 10px;
+}
+  
+nav {
+display: flex; 
+align-items: center; 
+
+}
+
+nav a {
+color: white; 
+text-decoration: none;
+font-weight: bold;
+padding-left: 150px;
+}
+
