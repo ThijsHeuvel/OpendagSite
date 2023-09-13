@@ -2,37 +2,74 @@
     width: 120px;
     height: auto;
 }
-
+html{
+    padding: 0px;
+    margin: -10px;
+    overflow: hidden;
+}
 *{
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    max-height: 100px;
-    background-color: #0050FF;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: -10px !important;
-    margin: -10px;
-}
 
-header > img,
-header > nav {
-padding: 10px;
-}
-  
-nav {
-display: flex; 
-align-items: center;
 
+
+@media only screen and (min-width: 768px) {
+    .headerlinks {
+        width: 700px;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header{
+        overflow: hidden;
+        background-color: #0050ff;
+        padding: 20px 20px;
+    
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 nav a {
 color: white; 
 text-decoration: none;
 font-weight: bold;
-padding-left: 150px;
 }
+
+@media only screen and (max-width: 768px) {
+    .headerlinks {
+        width: 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+    .logo{
+        width: 120px;
+        height: 40px !important;
+    }
+    .header{
+        overflow: hidden;
+        background-color: #0050ff;
+        padding: 20px 20px;
+    
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.introduction{
+    height: 600px;
+    width: 101vw;
+    background-image: url("../img/laptopgebruiker.jpg");
+    overflow: hidden;
+}
+.introduction p{
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+} 
 
 
