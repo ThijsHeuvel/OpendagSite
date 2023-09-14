@@ -62,6 +62,13 @@ font-weight: bold;
         display: flex;
         justify-content: space-evenly;
     }
+    .gridcontainer{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .informationschool p h1{
+        font-size: 20px;
+    }
 }
 
 .introduction{
@@ -78,9 +85,9 @@ font-weight: bold;
 } 
 
 .introtext{
-    border: 5px solid rgba(0, 80, 255, .7);
-    width: 98vw !important;
-    border-width: 20px;
+    border: 1px solid rgba(0, 80, 255, .7);
+
+    width: 100vw !important;
     background-color: rgba(87, 221, 239, 0.4);
 }
 
@@ -100,8 +107,30 @@ font-weight: bold;
     text-align: center;
 }
 
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
+.subjectcard{
+    border: 0px solid rgb(43, 221, 93);
+    background-color: rgba(43, 221, 93, .3);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subjectcard h3{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cardcontent{
+    margin: 20px;
+}
   
-
+html {
+    scroll-behavior: smooth;
+  }
 
 
