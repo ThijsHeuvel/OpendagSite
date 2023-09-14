@@ -5,10 +5,14 @@
 html{
     padding: 0px;
     margin: -10px;
-    overflow: hidden;
+    overflow: scroll;
 }
 *{
     font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 
@@ -63,13 +67,41 @@ font-weight: bold;
 .introduction{
     height: 600px;
     width: 101vw;
-    background-image: url("../img/laptopgebruiker.jpg");
+    background-image: url("../img/locatie.jpg");
+    background-position: 10%, 10%;
     overflow: hidden;
 }
 .introduction p{
     text-align: center;
     font-size: 40px;
-    color: whitesmoke;
+    color: black;
 } 
+
+.introtext{
+    border: 5px solid rgba(0, 80, 255, .7);
+    width: 98vw !important;
+    border-width: 20px;
+    background-color: rgba(87, 221, 239, 0.4);
+}
+
+.container{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    max-width: 80vw;
+}
+
+.outercontainer{
+    background-color: rgba(87, 221, 239, 0.8);
+}
+
+.informationschool{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+  
+
 
 
