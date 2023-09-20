@@ -131,6 +131,45 @@ font-weight: bold;
   
 html {
     scroll-behavior: smooth;
-  }
+}
 
+.schedulemain{
+    background-color: rgba(43, 221, 93, .6);
+}
+
+.schedulemain h2{
+    padding-top: 20px;
+}
+
+li{
+    list-style-type: none !important;
+}
+
+
+.imgtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flextext b, .teachercard b{
+    font-size: large;
+}
+
+.flextext{
+    background-color: rgba(87, 221, 239, 0.8);
+    padding: 20px;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.flowchartimg{
+    height: 800px;
+    width: auto;
+}
 
