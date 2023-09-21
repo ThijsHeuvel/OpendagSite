@@ -64,13 +64,25 @@ font-weight: bold;
         display: flex;
         justify-content: space-evenly;
     }
-    .gridcontainer{
+    .gridcontainer, .teachergridcontainer{
         display: flex !important;
         flex-direction: column !important;
     }
     .informationschool p h1{
         font-size: 20px;
     }
+
+    .imgtext{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+    }
+
+    .flextext{
+        text-align: center;
+    }
+
+
 }
 
 .introduction{
@@ -144,7 +156,7 @@ html {
 }
 
 li{
-    list-style-type: none !important;
+    list-style-type: none;
 }
 
 
